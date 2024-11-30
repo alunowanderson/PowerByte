@@ -4,6 +4,7 @@ import { TrendingArea } from "@/components/ui/momento";
 import { NavItem } from "@/components/ui/navegar/nav-item";
 import { NavPerfil } from "@/components/ui/navegar/nav-perfil";
 import { NavSair } from "@/components/ui/navegar/nav-sair";
+import { RecommendationArea } from "@/components/ui/recomendados";
 import { faHouse, faUser } from "@fortawesome/free-solid-svg-icons";
 import { ReactNode } from "react";
 
@@ -41,6 +42,7 @@ export default  function Layout({ children}: Props) {
             ">
                <SearchInput hideOnSearch />
                <TrendingArea />
+               <RecommendationArea />
 
             </aside>
         </main>
