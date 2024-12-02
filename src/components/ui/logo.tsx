@@ -9,7 +9,7 @@ export const Logo = ({size}: Props) => {
         <Link href="/">
             <Image
                 src={'/logo.png'}
-                alt="PB"
+                alt="PB-Logo"
                 width={size}
                 height={size}
                 quality={100}

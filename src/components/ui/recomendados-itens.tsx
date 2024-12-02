@@ -3,6 +3,7 @@
 import { User } from "@/types/usuario";
 import Link from "next/link";
 import { Button } from "./botao";
+import { useState } from "react";
 
 type Props = {
     user: User;
@@ -10,8 +11,10 @@ type Props = {
 
 export const RecommendationItem = ({ user }: Props) => {
 
-    const handleFollowButton = () => {
+    const [following, setFollowing] = useState(false);
 
+    const handleFollowButton = () => {
+        setFollowing(true);
     }
 
 
@@ -31,14 +34,26 @@ export const RecommendationItem = ({ user }: Props) => {
                 <div className="truncate text-sm text-gray-300">@{user.slug}</div>
             </div>
             <div className="pl-2 w-20">
-                <Button
-                    label="Seguir"
-                    onClick={handleFollowButton}
-                    size={3}
-                />
-
+                {!following &&
+                    <Button
+                        label="Seguir"
+                        onClick={handleFollowButton}
+                        size={3}
+                    />
+                }
             </div>
         </div>
-    
+    );
+}
+
+export const RecommendationItemSkeleton = () => {
+    return (
+        <div className="animate-pulse flex items-center">
+            <div className="size-10 mr-2 rounded-full bg-gray-700"></div>
+            <div className="flex-1 flex flex-col gap-1">
+                <div className="bg-gray-700 w-3/4 h-4"></div>
+                <div className="bg-gray-700 w-1/4 h-4"></div>
+            </div>
+        </div>
     );
 }
