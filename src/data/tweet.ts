@@ -5,7 +5,7 @@ export const tweet: Tweet = {
     id: 123,
     user: user,
     body: 'Vale a pena?',
-    image: 'https://www.pichauarena.com.br/wp-content/uploads/2024/08/GPUI1.png',
+    image: 'https://www.clubedohardware.com.br/uploads/attachments/monthly_2022_05/image.thumb.png.34ab252b3e44a66e7778802c5c8ee49f.png',
     likeCount: 333,
     commentCount: 4,
     retweetCount: 0,

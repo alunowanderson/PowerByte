@@ -1,8 +1,9 @@
 {
-  "/_not-found/page": "app/_not-found/page.js",
+  "/(ui)/tweet/[id]/page": "app/(ui)/tweet/[id]/page.js",
+  "/(ui)/profile/page": "app/(ui)/profile/page.js",
+  "/(ui)/[slug]/page": "app/(ui)/[slug]/page.js",
+  "/(ui)/[slug]/edit/page": "app/(ui)/[slug]/edit/page.js",
   "/page": "app/page.js",
-  "/(auth)/login/page": "app/(auth)/login/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/(auth)/cadastro/page": "app/(auth)/cadastro/page.js",
   "/(ui)/home/page": "app/(ui)/home/page.js"
 }
