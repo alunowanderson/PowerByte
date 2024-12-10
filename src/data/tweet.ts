@@ -4,7 +4,7 @@ import { user } from "./usuario";
 export const tweet: Tweet = {
     id: 123,
     user: user,
-    body: 'Vale a pena?',
+    body: 'Vale a pena esse preço ?',
     image: 'https://www.pichauarena.com.br/wp-content/uploads/2024/08/GPUI1.png',
     likeCount: 333,
     commentCount: 4,

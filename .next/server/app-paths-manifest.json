@@ -1,9 +1,9 @@
 {
-  "/(ui)/tweet/[id]/page": "app/(ui)/tweet/[id]/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
   "/(ui)/profile/page": "app/(ui)/profile/page.js",
   "/(ui)/[slug]/page": "app/(ui)/[slug]/page.js",
   "/(ui)/[slug]/edit/page": "app/(ui)/[slug]/edit/page.js",
-  "/page": "app/page.js",
+  "/(ui)/tweet/[id]/page": "app/(ui)/tweet/[id]/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
   "/(ui)/home/page": "app/(ui)/home/page.js"
 }

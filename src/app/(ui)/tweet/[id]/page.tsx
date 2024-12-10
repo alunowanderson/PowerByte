@@ -17,10 +17,6 @@ export default function Page() {
                 </div>
 
                 <TweetItem tweet={tweet} hideComments/>
-                <TweetItem tweet={tweet} hideComments/>
-                <TweetItem tweet={tweet} hideComments/>
-        
-
             </div>
         </div>
 
